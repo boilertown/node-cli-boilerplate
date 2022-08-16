@@ -1,12 +1,9 @@
 {
-	"name": "node-cli-boilerplate",
+	"name": "@boilertowns/node-cli-boilerplate",
 	"version": "0.0.0",
-	"description": "",
-	"license": "MIT",
+	"description": "Your Node.js CLI app",
 	"type": "module",
 	"bin": "./dist/index.js",
-	"main": "./dist/index.js",
-	"exports": "./dist/index.js",
 	"engines": {
 		"node": ">=14.16"
 	},
@@ -24,7 +21,6 @@
 	"dependencies": {
 		"chalk": "^5.0.1",
 		"commander": "^9.3.0",
-		"enquirer": "^2.3.6",
 		"figlet": "^1.5.2",
 		"ora": "^6.1.2"
 	},
@@ -33,6 +29,7 @@
 		"@commitlint/cli": "^17.0.3",
 		"@commitlint/config-conventional": "^17.0.3",
 		"@trivago/prettier-plugin-sort-imports": "^3.2.0",
+		"@types/figlet": "^1.5.4",
 		"@types/node": "^18.0.3",
 		"@typescript-eslint/eslint-plugin": "^5.30.5",
 		"@typescript-eslint/parser": "^5.30.5",

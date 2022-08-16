@@ -41,22 +41,16 @@
 
 ## Development
 
-- Build the library:
+- Run the app in development mode:
+
+  ```sh
+  pnpm dev
+  ```
+
+- Build the app:
 
   ```sh
   pnpm build
-  ```
-
-- Run storybook:
-
-  ```sh
-  pnpm storybook
-  ```
-
-- Unit test component with:
-
-  ```sh
-  pnpm test
   ```
 
 - Create changeset:
@@ -65,11 +59,11 @@
   pnpm changeset
   ```
 
-## Release & Publish CLI
+## Release & Publish app
 
 This boilerplate uses [changesets][changesets-url] to automatically generate `CHANGELOG`, create releases and publish to NPM registry via GitHub Actions. You can see action details at [release.yml](/.github/workflows//release.yml).
 
-To automating publish your library, follow these steps:
+To automating publish your app, follow these steps:
 
 - Create a `NPM_TOKEN`. [See this article for more details](https://docs.npmjs.com/creating-and-viewing-access-tokens). Make sure the type of access token is **Automation**.
 

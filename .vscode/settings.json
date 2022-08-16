@@ -1,0 +1,14 @@
+{
+	"editor.tabSize": 2,
+	"editor.foldingStrategy": "indentation",
+	"editor.wordWrap": "on",
+	"editor.suggestSelection": "first",
+	"editor.formatOnSave": true,
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"typescript.preferences.importModuleSpecifierEnding": "js",
+	"typescript.suggest.autoImports": true,
+	"typescript.tsdk": "node_modules/typescript/lib",
+	"[javascript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	}
+}

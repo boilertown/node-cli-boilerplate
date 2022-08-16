@@ -1,0 +1,24 @@
+{
+	"root": true,
+	"parserOptions": {
+		"sourceType": "module"
+	},
+	"extends": ["eslint:recommended", "plugin:prettier/recommended"],
+	"env": {
+		"node": true,
+		"es2022": true,
+		"jest": true
+	},
+	"overrides": [
+		{
+			"files": ["*.ts"],
+			"parser": "@typescript-eslint/parser",
+			"extends": ["plugin:@typescript-eslint/recommended"],
+			"plugins": ["@typescript-eslint"],
+			"rules": {
+				"@typescript-eslint/ban-ts-comment": "warn",
+				"@typescript-eslint/explicit-module-boundary-types": "off"
+			}
+		}
+	]
+}

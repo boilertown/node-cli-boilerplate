@@ -1,0 +1,29 @@
+{
+	"compilerOptions": {
+		"baseUrl": "./",
+		"paths": {
+			"*": ["src/*"]
+		},
+		"target": "ESNext",
+		"module": "NodeNext",
+		"lib": ["DOM", "DOM.Iterable", "ES2020"],
+		"moduleResolution": "NodeNext",
+		"resolveJsonModule": true,
+		"sourceMap": true,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
+		"removeComments": false,
+		"forceConsistentCasingInFileNames": true,
+		"allowSyntheticDefaultImports": true,
+		"strict": true,
+		"noUnusedLocals": true,
+		"useUnknownInCatchVariables": false,
+		"esModuleInterop": true,
+		"useDefineForClassFields": true,
+		"skipLibCheck": true,
+		"isolatedModules": true,
+		"allowJs": false,
+	},
+	"include": ["src"],
+	"exclude": ["node_modules", "dist"]
+}

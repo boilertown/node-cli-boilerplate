@@ -1,0 +1,30 @@
+# Dependencies
+node_modules
+
+# Build
+build
+dist
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Misc
+.turbo
+.nuxt
+.next
+.pnpm-store
+
+# Testing
+my-awesome-project
+coverage
+*.lcov
+
+# ENV files
+devcontainer.env
+.env
+
+# Mac
+.DS_Store

@@ -13,6 +13,7 @@
 - Linting with [Eslint][eslint-url] and code formatting with [Prettier][prettier-url]
 - Conventional commit messages with [Commitlint][commitlint-url]
 - Build with [tsup][tsup-url]
+- [Vitest][vitest-url] for Unit test
 - Automated release with [changesets][changesets-url]
 
 ## Get Started
@@ -86,3 +87,4 @@ To automating publish your app, follow these steps:
 [prettier-url]: https://prettier.io
 [changesets-url]: https://github.com/changesets/changesets
 [tsup-url]: https://tsup.egoist.sh
+[vitest-url]: https://vitest.dev

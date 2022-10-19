@@ -10,7 +10,6 @@
 		"moduleResolution": "Node",
 		"resolveJsonModule": true,
 		"sourceMap": true,
-		"emitDecoratorMetadata": true,
 		"experimentalDecorators": true,
 		"removeComments": false,
 		"forceConsistentCasingInFileNames": true,

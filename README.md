@@ -4,7 +4,7 @@
   <p>
     A Node.js boilerplate with opinionated setup to help you kickstart your own CLI.
   </p>
-  <img src="https://img.shields.io/github/license/boilertowns/node-cli-boilerplate?style=flat-square" alt="MIT license" >
+  <img src="https://img.shields.io/github/license/boilertown/node-cli-boilerplate?style=flat-square" alt="MIT license" >
 </div>
 
 ## The Setup
@@ -18,20 +18,20 @@
 
 ## Get Started
 
-- Use [Boilertowns](https://github.com/boilertowns/create-boilertowns) CLI.
+- Use [Boilertown](https://github.com/boilertown/create-boilertown) CLI.
 
   ```sh
   # npm
-  npm create boilertowns@latest -- -b node-cli-boilerplate
+  npm create boilertown@latest -- -b node-cli-boilerplate
 
   # yarn
-  yarn create boilertowns -b node-cli-boilerplate
+  yarn create boilertown -b node-cli-boilerplate
 
   # pnpm
-  pnpm create boilertowns -b node-cli-boilerplate
+  pnpm create boilertown -b node-cli-boilerplate
 
   # bun
-  bun create boilertowns/node-cli-boilerplate [cli-name]
+  bun create boilertown/node-cli-boilerplate [cli-name]
   ```
 
 - Click the green "Use this template" button to generate a new repository with the same structure and files.
@@ -80,7 +80,7 @@ To automating publish your app, follow these steps:
 
 **node-cli-boilerplate** ❤️ your contributions. If you have any ideas, suggestions, fixes, feel free to contribute.
 
-[boilertowns-url]: https://github.com/boilertowns
+[boilertown-url]: https://github.com/boilertown
 [typescript-url]: https://www.typescriptlang.org
 [eslint-url]: https://eslint.org
 [commitlint-url]: https://github.com/conventional-changelog/commitlint

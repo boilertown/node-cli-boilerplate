@@ -1,5 +1,5 @@
 {
-	"name": "@boilertowns/node-cli-boilerplate",
+	"name": "@boilertown/node-cli-boilerplate",
 	"version": "0.0.0",
 	"description": "Your Node.js CLI app",
 	"type": "module",
